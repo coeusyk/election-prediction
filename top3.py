@@ -35,9 +35,7 @@ def process_election_data(file_path, output_file):
 
     print(f"Analysis complete! Results saved to {output_file}")
 
-# Process 2014 election data
+# Process  election data
 process_election_data("datasets/State-Wise-Seat-Won_2014.csv", "output/top_3_parties_per_state_2014.csv")
-
-# Process 2019 election data
 process_election_data("datasets/State-Wise-Seat-Won_2019.csv", "output/top_3_parties_per_state_2019.csv")
 process_election_data("datasets/State-Wise-Seat-Won_2024.csv", "output/top_3_parties_per_state_2024.csv")
