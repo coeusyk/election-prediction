@@ -4,9 +4,9 @@ from shiny import App, render, ui, reactive
 import shinywidgets  # Required for Plotly support
 
 # Load datasets for historical results
-df_2014 = pd.read_csv("output/top_3_parties_per_state_2014.csv")
-df_2019 = pd.read_csv("output/top_3_parties_per_state_2019.csv")
-df_2024 = pd.read_csv("output/top_3_parties_per_state_2024.csv")
+df_2014 = pd.read_csv("filtered_datasets/top_3_parties_per_state_2014.csv")
+df_2019 = pd.read_csv("filtered_datasets/top_3_parties_per_state_2019.csv")
+df_2024 = pd.read_csv("filtered_datasets/top_3_parties_per_state_2024.csv")
 
 df_2014["Year"] = 2014
 df_2019["Year"] = 2019

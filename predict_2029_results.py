@@ -6,9 +6,9 @@ import xgboost as xgb
 
 
 # File paths
-file_2014 = "output/top_3_parties_per_state_2014.csv"
-file_2019 = "output/top_3_parties_per_state_2019.csv"
-file_2024 = "output/top_3_parties_per_state_2024.csv"
+file_2014 = "filtered_datasets/top_3_parties_per_state_2014.csv"
+file_2019 = "filtered_datasets/top_3_parties_per_state_2019.csv"
+file_2024 = "filtered_datasets/top_3_parties_per_state_2024.csv"
 
 # Load datasets
 df_2014 = pd.read_csv(file_2014)
