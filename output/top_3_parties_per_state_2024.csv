@@ -1,0 +1,112 @@
+STATE NAME,PARTY TYPE,PARTY NAME,TOTAL VALID VOTES POLLED IN STATE,TOTAL ELECTORS IN STATE,SEATS WON,TOTAL VALID VOTES POLLED BY PARTY,% OF VALID VOTES POLLED BY PARTY,TOTAL SEATS IN STATE,% SEATS WON
+Andaman & Nicobar Islands,N,Bharatiya Janata Party,200705.0,315745.0,1.0,102436.0,51.04,1.0,100.0
+Andaman & Nicobar Islands,N,Bahujan Samaj Party,200705.0,315745.0,0.0,719.0,0.36,1.0,0.0
+Andaman & Nicobar Islands,N,Communist Party of India (Marxist),200705.0,315745.0,0.0,6017.0,3.0,1.0,0.0
+Andhra Pradesh,S,Telugu Desam,33327256.0,41401887.0,16.0,12775270.0,38.33,25.0,64.0
+Andhra Pradesh,S,Yuvajana Sramika Rythu Congress Party,33327256.0,41401887.0,4.0,13316134.0,39.96,25.0,16.0
+Andhra Pradesh,N,Bharatiya Janata Party,33327256.0,41401887.0,3.0,3808941.0,11.43,25.0,12.0
+Arunachal Pradesh,N,Bharatiya Janata Party,716056.0,898442.0,2.0,350998.0,49.02,2.0,100.0
+Arunachal Pradesh,N,Indian National Congress,716056.0,898442.0,0.0,219839.0,30.7,2.0,0.0
+Arunachal Pradesh,U,Arunachal Democratic Party,716056.0,898442.0,0.0,6622.0,0.92,2.0,0.0
+Assam,N,Bharatiya Janata Party,19819569.0,24572114.0,9.0,7509104.0,37.89,14.0,64.28571428571429
+Assam,N,Indian National Congress,19819569.0,24572114.0,3.0,7510363.0,37.89,14.0,21.428571428571427
+Assam,S,Asom Gana Parishad,19819569.0,24572114.0,1.0,1298707.0,6.55,14.0,7.142857142857142
+Bihar,N,Bharatiya Janata Party,42549333.0,77259579.0,12.0,8914266.0,20.95,40.0,30.0
+Bihar,S,Janata Dal (United),42549333.0,77259579.0,12.0,8039663.0,18.89,40.0,30.0
+Bihar,S,Lok Janshakti Party(Ram Vilas),42549333.0,77259579.0,5.0,2810250.0,6.6,40.0,12.5
+Chandigarh,N,Indian National Congress,446363.0,660552.0,1.0,216657.0,48.54,1.0,100.0
+Chandigarh,N,Bharatiya Janata Party,446363.0,660552.0,0.0,214153.0,47.98,1.0,0.0
+Chandigarh,N,Bahujan Samaj Party,446363.0,660552.0,0.0,6708.0,1.5,1.0,0.0
+Chhattisgarh,N,Bharatiya Janata Party,14925237.0,20678667.0,10.0,7930096.0,53.13,11.0,90.9090909090909
+Chhattisgarh,N,Indian National Congress,14925237.0,20678667.0,1.0,6183101.0,41.43,11.0,9.090909090909092
+Chhattisgarh,N,Bahujan Samaj Party,14925237.0,20678667.0,0.0,175838.0,1.18,11.0,0.0
+Dadra & Nagar Haveli and Daman & Diu,N,Bharatiya Janata Party,291869.0,417236.0,1.0,157372.0,53.92,2.0,50.0
+Dadra & Nagar Haveli and Daman & Diu,Z,Independent,291869.0,417236.0,1.0,45855.0,15.71,2.0,50.0
+Dadra & Nagar Haveli and Daman & Diu,N,Bahujan Samaj Party,291869.0,417236.0,0.0,3152.0,1.08,2.0,0.0
+Disclaimer,,,,,,,,0.0,
+Goa,N,Bharatiya Janata Party,896119.0,1179644.0,1.0,462087.0,51.57,2.0,50.0
+Goa,N,Indian National Congress,896119.0,1179644.0,1.0,359370.0,40.1,2.0,50.0
+Goa,N,Bahujan Samaj Party,896119.0,1179644.0,0.0,3212.0,0.36,2.0,0.0
+Gujarat,N,Bharatiya Janata Party,28655853.0,48009945.0,24.0,17990346.0,62.78,25.0,96.0
+Gujarat,N,Indian National Congress,28655853.0,48009945.0,1.0,9108232.0,31.78,25.0,4.0
+Gujarat,N,Aam Aadmi Party,28655853.0,48009945.0,0.0,784055.0,2.74,25.0,0.0
+Haryana,N,Bharatiya Janata Party,13012030.0,20187911.0,5.0,6019165.0,46.26,10.0,50.0
+Haryana,N,Indian National Congress,13012030.0,20187911.0,5.0,5702938.0,43.83,10.0,50.0
+Haryana,N,Aam Aadmi Party,13012030.0,20187911.0,0.0,513154.0,3.94,10.0,0.0
+Himachal Pradesh,N,Bharatiya Janata Party,4046781.0,5711969.0,4.0,2296631.0,56.75,4.0,100.0
+Himachal Pradesh,N,Bahujan Samaj Party,4046781.0,5711969.0,0.0,21404.0,0.53,4.0,0.0
+Himachal Pradesh,N,Indian National Congress,4046781.0,5711969.0,0.0,1696173.0,41.91,4.0,0.0
+Jammu and Kashmir,N,Bharatiya Janata Party,5116405.0,8802348.0,2.0,1258664.0,24.6,5.0,40.0
+Jammu and Kashmir,S,Jammu & Kashmir National Conference,5116405.0,8802348.0,2.0,1147041.0,22.42,5.0,40.0
+Jammu and Kashmir,Z,Independent,5116405.0,8802348.0,1.0,757925.0,14.81,5.0,20.0
+Jharkhand,N,Bharatiya Janata Party,17046517.0,25877892.0,8.0,7681990.0,45.06,14.0,57.14285714285714
+Jharkhand,S,Jharkhand Mukti Morcha,17046517.0,25877892.0,3.0,2517556.0,14.77,14.0,21.428571428571427
+Jharkhand,N,Indian National Congress,17046517.0,25877892.0,2.0,3319345.0,19.47,14.0,14.285714285714285
+Karnataka,N,Bharatiya Janata Party,38575274.0,54772332.0,17.0,17879261.0,46.35,28.0,60.71428571428571
+Karnataka,N,Indian National Congress,38575274.0,54772332.0,9.0,17606669.0,45.64,28.0,32.142857142857146
+Karnataka,S,Janata Dal (Secular),38575274.0,54772332.0,2.0,2173701.0,5.63,28.0,7.142857142857142
+Kerala,N,Indian National Congress,19821980.0,27807008.0,14.0,7003971.0,35.33,20.0,70.0
+Kerala,S,Indian Union Muslim League,19821980.0,27807008.0,2.0,1206522.0,6.09,20.0,10.0
+Kerala,N,Bharatiya Janata Party,19821980.0,27807008.0,1.0,3331250.0,16.81,20.0,5.0
+Ladakh,Z,Independent,134612.0,190576.0,1.0,65259.0,48.48,1.0,100.0
+Ladakh,N,Bharatiya Janata Party,134612.0,190576.0,0.0,31956.0,23.74,1.0,0.0
+Ladakh,N,Indian National Congress,134612.0,190576.0,0.0,37397.0,27.78,1.0,0.0
+Lakshadweep,N,Indian National Congress,49067.0,57953.0,1.0,25726.0,52.43,1.0,100.0
+Lakshadweep,U,Nationalist Congress Party,49067.0,57953.0,0.0,201.0,0.41,1.0,0.0
+Lakshadweep,U,Nationalist Congress Party – Sharadchandra Pawar,49067.0,57953.0,0.0,23079.0,47.04,1.0,0.0
+Madhya Pradesh,N,Bharatiya Janata Party,37406546.0,56668852.0,29.0,22490851.0,60.13,29.0,100.0
+Madhya Pradesh,N,Bahujan Samaj Party,37406546.0,56668852.0,0.0,1244385.0,3.33,29.0,0.0
+Madhya Pradesh,N,Indian National Congress,37406546.0,56668852.0,0.0,12308049.0,32.9,29.0,0.0
+Maharashtra,N,Indian National Congress,56763551.0,93061760.0,13.0,9676935.0,17.05,48.0,27.083333333333332
+Maharashtra,N,Bharatiya Janata Party,56763551.0,93061760.0,9.0,14966577.0,26.37,48.0,18.75
+Maharashtra,S,Shiv Sena (Uddhav Balasaheb Thackrey),56763551.0,93061760.0,9.0,9567779.0,16.86,48.0,18.75
+Manipur,N,Indian National Congress,1582610.0,2051357.0,2.0,758971.0,47.96,2.0,100.0
+Manipur,N,Bharatiya Janata Party,1582610.0,2051357.0,0.0,264216.0,16.69,2.0,0.0
+Manipur,S,Naga Peoples Front,1582610.0,2051357.0,0.0,299536.0,18.93,2.0,0.0
+Meghalaya,N,Indian National Congress,1695119.0,2230451.0,1.0,583087.0,34.4,2.0,50.0
+Meghalaya,S,Voice of the People Party,1695119.0,2230451.0,1.0,571078.0,33.69,2.0,50.0
+Meghalaya,N,National People's Party,1695119.0,2230451.0,0.0,415166.0,24.49,2.0,0.0
+Mizoram,S,Zoram People’s Movement,489443.0,861327.0,1.0,208552.0,42.61,1.0,100.0
+Mizoram,N,Bharatiya Janata Party,489443.0,861327.0,0.0,33533.0,6.85,1.0,0.0
+Mizoram,N,Indian National Congress,489443.0,861327.0,0.0,98595.0,20.14,1.0,0.0
+NCT OF Delhi,N,Bharatiya Janata Party,8892762.0,15214638.0,7.0,4860924.0,54.66,7.0,100.0
+NCT OF Delhi,N,Aam Aadmi Party,8892762.0,15214638.0,0.0,2158115.0,24.27,7.0,0.0
+NCT OF Delhi,N,Bahujan Samaj Party,8892762.0,15214638.0,0.0,62615.0,0.7,7.0,0.0
+Nagaland,N,Indian National Congress,759150.0,1325383.0,1.0,401951.0,52.95,1.0,100.0
+Nagaland,S,Nationalist Democratic Progressive Party,759150.0,1325383.0,0.0,350967.0,46.23,1.0,0.0
+Nagaland,Z,Independent,759150.0,1325383.0,0.0,6232.0,0.82,1.0,0.0
+Note -This report is based on election related data of 542 PCs only excluding data of PC-24:Surat due to unopposed election in the PC. Important Statistical Information of PC - Surat may be seen in Report2A:Highlights(Surat PC).,,,,,,,,0.0,
+Odisha,N,Bharatiya Janata Party,24801399.0,33716965.0,20.0,11409985.0,46.01,21.0,95.23809523809523
+Odisha,N,Indian National Congress,24801399.0,33716965.0,1.0,3147281.0,12.69,21.0,4.761904761904762
+Odisha,N,Bahujan Samaj Party,24801399.0,33716965.0,0.0,103315.0,0.42,21.0,0.0
+Puducherry,N,Indian National Congress,798177.0,1024024.0,1.0,426005.0,53.37,1.0,100.0
+Puducherry,N,Bharatiya Janata Party,798177.0,1024024.0,0.0,289489.0,36.27,1.0,0.0
+Puducherry,N,Bahujan Samaj Party,798177.0,1024024.0,0.0,1540.0,0.19,1.0,0.0
+Punjab,N,Indian National Congress,13463765.0,21567196.0,7.0,3559656.0,26.44,13.0,53.84615384615385
+Punjab,N,Aam Aadmi Party,13463765.0,21567196.0,3.0,3521564.0,26.16,13.0,23.076923076923077
+Punjab,Z,Independent,13463765.0,21567196.0,2.0,1058241.0,7.86,13.0,15.384615384615385
+Rajasthan,N,Bharatiya Janata Party,32885413.0,53508010.0,14.0,16323452.0,49.64,25.0,56.00000000000001
+Rajasthan,N,Indian National Congress,32885413.0,53508010.0,8.0,12578823.0,38.25,25.0,32.0
+Rajasthan,N,Communist Party of India (Marxist),32885413.0,53508010.0,1.0,659300.0,2.0,25.0,4.0
+Sikkim,S,Sikkim Krantikari Morcha,382366.0,466643.0,1.0,164396.0,42.99,1.0,100.0
+Sikkim,N,Bharatiya Janata Party,382366.0,466643.0,0.0,19035.0,4.98,1.0,0.0
+Sikkim,N,Indian National Congress,382366.0,466643.0,0.0,2241.0,0.59,1.0,0.0
+Tamil Nadu,S,Dravida Munnetra Kazhagam,43206980.0,62404947.0,22.0,11754710.0,27.21,39.0,56.41025641025641
+Tamil Nadu,N,Indian National Congress,43206980.0,62404947.0,9.0,4659734.0,10.78,39.0,23.076923076923077
+Tamil Nadu,N,Communist Party of India (Marxist),43206980.0,62404947.0,2.0,1100472.0,2.55,39.0,5.128205128205128
+Telangana,N,Bharatiya Janata Party,21904129.0,33232318.0,8.0,7743947.0,35.35,17.0,47.05882352941176
+Telangana,N,Indian National Congress,21904129.0,33232318.0,8.0,8824961.0,40.29,17.0,47.05882352941176
+Telangana,S,All India Majlis-E-Ittehadul Muslimeen,21904129.0,33232318.0,1.0,661981.0,3.02,17.0,5.88235294117647
+These statistical reports are prepared only for academic and research purposes from the secondary data filled in the Index Cards. The primary data is in the statutory forms maintained by the concerned Returning Officers and the data kept in statutory forms is final.,,,,,,,,0.0,
+Tripura,N,Bharatiya Janata Party,2311239.0,2870896.0,2.0,1658788.0,71.77,2.0,100.0
+Tripura,N,Communist Party of India (Marxist),2311239.0,2870896.0,0.0,290628.0,12.57,2.0,0.0
+Tripura,N,Indian National Congress,2311239.0,2870896.0,0.0,269763.0,11.67,2.0,0.0
+Uttar Pradesh,S,Samajwadi Party,87274787.0,154403112.0,37.0,29534902.0,33.84,80.0,46.25
+Uttar Pradesh,N,Bharatiya Janata Party,87274787.0,154403112.0,33.0,36364011.0,41.67,80.0,41.25
+Uttar Pradesh,N,Indian National Congress,87274787.0,154403112.0,6.0,8315527.0,9.53,80.0,7.5
+Uttarakhand,N,Bharatiya Janata Party,4783497.0,8431101.0,5.0,2750408.0,57.5,5.0,100.0
+Uttarakhand,N,Bahujan Samaj Party,4783497.0,8431101.0,0.0,86883.0,1.82,5.0,0.0
+Uttarakhand,N,Indian National Congress,4783497.0,8431101.0,0.0,1581711.0,33.07,5.0,0.0
+West Bengal,S,All India Trinamool Congress,59958733.0,76124780.0,29.0,27674133.0,46.16,42.0,69.04761904761905
+West Bengal,N,Bharatiya Janata Party,59958733.0,76124780.0,12.0,23431081.0,39.08,42.0,28.57142857142857
+West Bengal,N,Indian National Congress,59958733.0,76124780.0,1.0,2827055.0,4.72,42.0,2.380952380952381
