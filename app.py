@@ -24,11 +24,11 @@ year_options = [str(y) for y in sorted(df["Year"].unique())]
 # Load prediction data
 df_2029 = pd.read_csv("predicted_2029_results.csv")
 
-df_2029["STATE NAME"] = df_2029["STATE NAME"].astype(str)
-df_2029["PARTY NAME"] = df_2029["PARTY NAME"].astype(str)
-df_2029["SEATS WON"] = df_2029["SEATS WON"].astype(int)
+df_2029["State"] = df_2029["State"].astype(str)
+df_2029["Party"] = df_2029["Party"].astype(str)
+df_2029["Seats_Won"] = df_2029["Seats_Won"].astype(int)
 
-prediction_state_options = sorted(df_2029["STATE NAME"].dropna().unique())
+prediction_state_options = sorted(df_2029["State"].dropna().unique())
 
 # Define UI
 app_ui = ui.page_fluid(
@@ -90,9 +90,11 @@ def server(input, output, session):
         data = filtered_data()
         if data.empty:
             return ui.HTML("<p style='color: red; font-weight: bold;'>No data available for this selection.</p>")
+
         fig = px.bar(data, x="PARTY NAME", y="SEATS WON", color="PARTY NAME",
                      title=f"Seats Won by Top 3 Parties in {input.state()} ({input.year()})",
                      labels={"SEATS WON": "Number of Seats"})
+
         return ui.HTML(fig.to_html(full_html=False, include_plotlyjs='cdn'))
 
     @output
@@ -112,21 +114,21 @@ def server(input, output, session):
     # Prediction Logic
     @reactive.calc
     def filtered_prediction():
-        return df_2029[df_2029["STATE NAME"] == input.pred_state()]
+        return df_2029[df_2029["State"] == input.pred_state()]
 
     @output
     @shinywidgets.render_widget
     def prediction_chart():
         data = filtered_prediction()
-        fig = px.bar(data, x="PARTY NAME", y="SEATS WON", color="PARTY NAME",
+        fig = px.bar(data, x="Party", y="Seats_Won", color="Party",
                      title=f"Predicted Seats Won in {input.pred_state()} (2029)",
-                     labels={"SEATS WON": "Seats Won"})
+                     labels={"Seats_Won": "Seats Won"})
         return fig
 
     @output
     @render.table
     def prediction_table():
-        return filtered_prediction()[["PARTY NAME", "SEATS WON"]]
+        return filtered_prediction()[["Party", "Seats_Won"]]
 
 
 # Run the app

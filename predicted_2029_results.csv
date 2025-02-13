@@ -1,96 +1,109 @@
-STATE NAME,PARTY NAME,Year,SEATS WON
-Andaman & Nicobar Islands,Bahujan Samaj Party,2029,0
-Andaman & Nicobar Islands,Bharatiya Janata Party,2029,1
-Andhra Pradesh,Telugu Desam,2029,12
-Andhra Pradesh,Yuvajana Sramika Rythu Congress Party,2029,0
-Arunachal Pradesh,Bharatiya Janata Party,2029,3
-Arunachal Pradesh,Indian National Congress,2029,0
-Assam,All India United Democratic Front,2029,0
-Assam,Bharatiya Janata Party,2029,10
-Assam,Indian National Congress,2029,3
-Bihar,Bharatiya Janata Party,2029,7
-Bihar,Lok Jan Shakti Party,2029,6
-Chandigarh,Bahujan Samaj Party,2029,0
-Chandigarh,Bharatiya Janata Party,2029,0
-Chandigarh,Indian National Congress,2029,1
-Chhattisgarh,Bahujan Samaj Party,2029,0
-Chhattisgarh,Bharatiya Janata Party,2029,10
-Chhattisgarh,Indian National Congress,2029,1
-Dadra & Nagar Haveli,Bahujan Samaj Party,2029,0
-Dadra & Nagar Haveli,Bharatiya Janata Party,2029,0
-Daman & Diu,Bahujan Samaj Party,2029,0
-Daman & Diu,Bharatiya Janata Party,2029,1
-Daman & Diu,Indian National Congress,2029,0
-Goa,Bharatiya Janata Party,2029,0
-Goa,Indian National Congress,2029,2
-Gujarat,Bahujan Samaj Party,2029,0
-Gujarat,Bharatiya Janata Party,2029,23
-Gujarat,Communist Party of India,2029,0
-Haryana,Bharatiya Janata Party,2029,5
-Haryana,Indian National Congress,2029,7
-Himachal Pradesh,Bahujan Samaj Party,2029,0
-Himachal Pradesh,Bharatiya Janata Party,2029,4
-Himachal Pradesh,Communist Party of India  (Marxist),2029,0
-Jammu & Kashmir,Bahujan Samaj Party,2029,0
-Jammu & Kashmir,Bharatiya Janata Party,2029,3
-Jharkhand,Bharatiya Janata Party,2029,6
-Jharkhand,Indian National Congress,2029,3
-Jharkhand,Jharkhand Mukti Morcha,2029,4
-Karnataka,Bharatiya Janata Party,2029,20
-Karnataka,Indian National Congress,2029,6
-Karnataka,Janata Dal  (Secular),2029,0
-Kerala,Communist Party of India  (Marxist),2029,0
-Kerala,Indian National Congress,2029,18
-Kerala,Indian Union Muslim League,2029,2
-Lakshadweep,Bharatiya Janata Party,2029,0
-Lakshadweep,Communist Party of India,2029,0
-Lakshadweep,Nationalist Congress Party,2029,0
-Madhya Pradesh,Bahujan Samaj Party,2029,0
-Madhya Pradesh,Bharatiya Janata Party,2029,30
-Madhya Pradesh,Indian National Congress,2029,0
-Maharashtra,Bharatiya Janata Party,2029,4
-Maharashtra,Nationalist Congress Party,2029,4
-Maharashtra,Shivsena,2029,18
-Manipur,Bharatiya Janata Party,2029,0
-Manipur,Communist Party of India,2029,0
-Manipur,Indian National Congress,2029,2
-Manipur,Naga Peoples Front,2029,0
-Meghalaya,Bharatiya Janata Party,2029,0
-Meghalaya,Indian National Congress,2029,1
-Meghalaya,National People's Party,2029,0
-Mizoram,Bharatiya Janata Party,2029,0
-Mizoram,Indian National Congress,2029,0
-NCT OF Delhi,Bahujan Samaj Party,2029,0
-NCT OF Delhi,Bharatiya Janata Party,2029,7
-Nagaland,Indian National Congress,2029,1
-Nagaland,Nationalist Democratic Progressive Party,2029,0
-Odisha,Bahujan Samaj Party,2029,0
-Odisha,Bharatiya Janata Party,2029,29
-Odisha,Biju Janata Dal,2029,0
-Odisha,Indian National Congress,2029,1
-Puducherry,All India N.R. Congress,2029,0
-Puducherry,Bahujan Samaj Party,2029,0
-Puducherry,Indian National Congress,2029,1
-Punjab,Bharatiya Janata Party,2029,2
-Punjab,Indian National Congress,2029,10
-Punjab,Shiromani Akali Dal,2029,0
-Rajasthan,Bahujan Samaj Party,2029,0
-Rajasthan,Bharatiya Janata Party,2029,10
-Sikkim,Bharatiya Janata Party,2029,0
-Sikkim,Indian National Congress,2029,0
-Sikkim,Sikkim Krantikari Morcha,2029,1
-Tamil Nadu,Dravida Munnetra Kazhagam,2029,21
-Tamil Nadu,Indian National Congress,2029,10
-Telangana,Bharatiya Janata Party,2029,12
-Telangana,Indian National Congress,2029,13
-Tripura,Bharatiya Janata Party,2029,3
-Tripura,Communist Party of India  (Marxist),2029,0
-Tripura,Indian National Congress,2029,0
-Uttar Pradesh,Bharatiya Janata Party,2029,17
-Uttar Pradesh,Indian National Congress,2029,8
-Uttar Pradesh,Samajwadi Party,2029,48
-Uttarakhand,Bahujan Samaj Party,2029,0
-Uttarakhand,Bharatiya Janata Party,2029,5
-West Bengal,All India Trinamool Congress,2029,23
-West Bengal,Bharatiya Janata Party,2029,21
-West Bengal,Indian National Congress,2029,0
+State,Party,Year,Votes_Party,Votes_Percentage,Seats_Won,Total_Seats
+Andaman & Nicobar Islands,Bharatiya Janata Party,2029,102436.0,51.04,1,1.0
+Andaman & Nicobar Islands,Bahujan Samaj Party,2029,719.0,0.36,0,1.0
+Andaman & Nicobar Islands,Communist Party of India (Marxist),2029,6017.0,3.0,0,1.0
+Andhra Pradesh,Telugu Desam,2029,12775270.0,38.33,11,25.0
+Andhra Pradesh,Yuvajana Sramika Rythu Congress Party,2029,13316134.0,39.96,9,25.0
+Andhra Pradesh,Bharatiya Janata Party,2029,3808941.0,11.43,3,25.0
+Arunachal Pradesh,Bharatiya Janata Party,2029,350998.0,49.02,1,2.0
+Arunachal Pradesh,Indian National Congress,2029,219839.0,30.7,0,2.0
+Arunachal Pradesh,Arunachal Democratic Party,2029,6622.0,0.92,0,2.0
+Assam,Bharatiya Janata Party,2029,7509104.0,37.89,8,14.0
+Assam,Indian National Congress,2029,7510363.0,37.89,8,14.0
+Assam,Asom Gana Parishad,2029,1298707.0,6.55,1,14.0
+Bihar,Bharatiya Janata Party,2029,8914266.0,20.95,15,40.0
+Bihar,Janata Dal (United),2029,8039663.0,18.89,9,40.0
+Bihar,Lok Janshakti Party(Ram Vilas),2029,2810250.0,6.6,4,40.0
+Chandigarh,Indian National Congress,2029,216657.0,48.54,1,1.0
+Chandigarh,Bharatiya Janata Party,2029,214153.0,47.98,1,1.0
+Chandigarh,Bahujan Samaj Party,2029,6708.0,1.5,0,1.0
+Chhattisgarh,Bharatiya Janata Party,2029,7930096.0,53.13,11,11.0
+Chhattisgarh,Indian National Congress,2029,6183101.0,41.43,4,11.0
+Chhattisgarh,Bahujan Samaj Party,2029,175838.0,1.18,0,11.0
+Dadra & Nagar Haveli and Daman & Diu,Bharatiya Janata Party,2029,157372.0,53.92,2,2.0
+Dadra & Nagar Haveli and Daman & Diu,Independent,2029,45855.0,15.71,0,2.0
+Dadra & Nagar Haveli and Daman & Diu,Bahujan Samaj Party,2029,3152.0,1.08,0,2.0
+Goa,Bharatiya Janata Party,2029,462087.0,51.57,2,2.0
+Goa,Indian National Congress,2029,359370.0,40.1,0,2.0
+Goa,Bahujan Samaj Party,2029,3212.0,0.36,0,2.0
+Gujarat,Bharatiya Janata Party,2029,17990346.0,62.78,25,25.0
+Gujarat,Indian National Congress,2029,9108232.0,31.78,10,25.0
+Gujarat,Aam Aadmi Party,2029,784055.0,2.74,1,25.0
+Haryana,Bharatiya Janata Party,2029,6019165.0,46.26,6,10.0
+Haryana,Indian National Congress,2029,5702938.0,43.83,5,10.0
+Haryana,Aam Aadmi Party,2029,513154.0,3.94,1,10.0
+Himachal Pradesh,Bharatiya Janata Party,2029,2296631.0,56.75,4,4.0
+Himachal Pradesh,Bahujan Samaj Party,2029,21404.0,0.53,0,4.0
+Himachal Pradesh,Indian National Congress,2029,1696173.0,41.91,1,4.0
+Jammu and Kashmir,Bharatiya Janata Party,2029,1258664.0,24.6,1,5.0
+Jammu and Kashmir,Jammu & Kashmir National Conference,2029,1147041.0,22.42,1,5.0
+Jammu and Kashmir,Independent,2029,757925.0,14.81,1,5.0
+Jharkhand,Bharatiya Janata Party,2029,7681990.0,45.06,9,14.0
+Jharkhand,Jharkhand Mukti Morcha,2029,2517556.0,14.77,2,14.0
+Jharkhand,Indian National Congress,2029,3319345.0,19.47,2,14.0
+Karnataka,Bharatiya Janata Party,2029,17879261.0,46.35,17,28.0
+Karnataka,Indian National Congress,2029,17606669.0,45.64,13,28.0
+Karnataka,Janata Dal (Secular),2029,2173701.0,5.63,2,28.0
+Kerala,Indian National Congress,2029,7003971.0,35.33,8,20.0
+Kerala,Indian Union Muslim League,2029,1206522.0,6.09,1,20.0
+Kerala,Bharatiya Janata Party,2029,3331250.0,16.81,2,20.0
+Ladakh,Independent,2029,65259.0,48.48,1,1.0
+Ladakh,Bharatiya Janata Party,2029,31956.0,23.74,0,1.0
+Ladakh,Indian National Congress,2029,37397.0,27.78,0,1.0
+Lakshadweep,Indian National Congress,2029,25726.0,52.43,1,1.0
+Lakshadweep,Nationalist Congress Party,2029,201.0,0.41,0,1.0
+Lakshadweep,Nationalist Congress Party – Sharadchandra Pawar,2029,23079.0,47.04,0,1.0
+Madhya Pradesh,Bharatiya Janata Party,2029,22490851.0,60.13,26,29.0
+Madhya Pradesh,Bahujan Samaj Party,2029,1244385.0,3.33,1,29.0
+Madhya Pradesh,Indian National Congress,2029,12308049.0,32.9,9,29.0
+Maharashtra,Indian National Congress,2029,9676935.0,17.05,10,48.0
+Maharashtra,Bharatiya Janata Party,2029,14966577.0,26.37,15,48.0
+Maharashtra,Shiv Sena (Uddhav Balasaheb Thackrey),2029,9567779.0,16.86,9,48.0
+Manipur,Indian National Congress,2029,758971.0,47.96,2,2.0
+Manipur,Bharatiya Janata Party,2029,264216.0,16.69,0,2.0
+Manipur,Naga Peoples Front,2029,299536.0,18.93,0,2.0
+Meghalaya,Indian National Congress,2029,583087.0,34.4,1,2.0
+Meghalaya,Voice of the People Party,2029,571078.0,33.69,2,2.0
+Meghalaya,National People's Party,2029,415166.0,24.49,1,2.0
+Mizoram,Zoram People’s Movement,2029,208552.0,42.61,0,1.0
+Mizoram,Bharatiya Janata Party,2029,33533.0,6.85,0,1.0
+Mizoram,Indian National Congress,2029,98595.0,20.14,0,1.0
+NCT OF Delhi,Bharatiya Janata Party,2029,4860924.0,54.66,6,7.0
+NCT OF Delhi,Aam Aadmi Party,2029,2158115.0,24.27,1,7.0
+NCT OF Delhi,Bahujan Samaj Party,2029,62615.0,0.7,0,7.0
+Nagaland,Indian National Congress,2029,401951.0,52.95,2,1.0
+Nagaland,Nationalist Democratic Progressive Party,2029,350967.0,46.23,0,1.0
+Nagaland,Independent,2029,6232.0,0.82,0,1.0
+Odisha,Bharatiya Janata Party,2029,11409985.0,46.01,16,21.0
+Odisha,Indian National Congress,2029,3147281.0,12.69,2,21.0
+Odisha,Bahujan Samaj Party,2029,103315.0,0.42,0,21.0
+Puducherry,Indian National Congress,2029,426005.0,53.37,2,1.0
+Puducherry,Bharatiya Janata Party,2029,289489.0,36.27,0,1.0
+Puducherry,Bahujan Samaj Party,2029,1540.0,0.19,0,1.0
+Punjab,Indian National Congress,2029,3559656.0,26.44,3,13.0
+Punjab,Aam Aadmi Party,2029,3521564.0,26.16,2,13.0
+Punjab,Independent,2029,1058241.0,7.86,1,13.0
+Rajasthan,Bharatiya Janata Party,2029,16323452.0,49.64,17,25.0
+Rajasthan,Indian National Congress,2029,12578823.0,38.25,10,25.0
+Rajasthan,Communist Party of India (Marxist),2029,659300.0,2.0,1,25.0
+Sikkim,Sikkim Krantikari Morcha,2029,164396.0,42.99,0,1.0
+Sikkim,Bharatiya Janata Party,2029,19035.0,4.98,0,1.0
+Sikkim,Indian National Congress,2029,2241.0,0.59,0,1.0
+Tamil Nadu,Dravida Munnetra Kazhagam,2029,11754710.0,27.21,17,39.0
+Tamil Nadu,Indian National Congress,2029,4659734.0,10.78,5,39.0
+Tamil Nadu,Communist Party of India (Marxist),2029,1100472.0,2.55,3,39.0
+Telangana,Bharatiya Janata Party,2029,7743947.0,35.35,8,17.0
+Telangana,Indian National Congress,2029,8824961.0,40.29,7,17.0
+Telangana,All India Majlis-E-Ittehadul Muslimeen,2029,661981.0,3.02,1,17.0
+Tripura,Bharatiya Janata Party,2029,1658788.0,71.77,3,2.0
+Tripura,Communist Party of India (Marxist),2029,290628.0,12.57,0,2.0
+Tripura,Indian National Congress,2029,269763.0,11.67,0,2.0
+Uttar Pradesh,Samajwadi Party,2029,29534902.0,33.84,36,80.0
+Uttar Pradesh,Bharatiya Janata Party,2029,36364011.0,41.67,33,80.0
+Uttar Pradesh,Indian National Congress,2029,8315527.0,9.53,6,80.0
+Uttarakhand,Bharatiya Janata Party,2029,2750408.0,57.5,4,5.0
+Uttarakhand,Bahujan Samaj Party,2029,86883.0,1.82,0,5.0
+Uttarakhand,Indian National Congress,2029,1581711.0,33.07,1,5.0
+West Bengal,All India Trinamool Congress,2029,27674133.0,46.16,28,42.0
+West Bengal,Bharatiya Janata Party,2029,23431081.0,39.08,17,42.0
+West Bengal,Indian National Congress,2029,2827055.0,4.72,3,42.0
