@@ -1,0 +1,11 @@
+data required:
+    past election result
+    party wise votes
+    state wise votes
+    2014, 2019, 2024
+
+To do:
+    visualize past results
+    predict next election result
+    explore party wise votes
+    get state wise trend
