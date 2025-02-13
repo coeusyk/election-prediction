@@ -3,51 +3,75 @@ import plotly.express as px
 from shiny import App, render, ui, reactive
 import shinywidgets  # Required for Plotly support
 
-# Load datasets for different years
+# Load datasets for historical results
 df_2014 = pd.read_csv("output/top_3_parties_per_state_2014.csv")
 df_2019 = pd.read_csv("output/top_3_parties_per_state_2019.csv")
 df_2024 = pd.read_csv("output/top_3_parties_per_state_2024.csv")
 
-# Add a "Year" column to each dataset
 df_2014["Year"] = 2014
 df_2019["Year"] = 2019
 df_2024["Year"] = 2024
 
-# Combine all datasets into one
 df = pd.concat([df_2014, df_2019, df_2024], ignore_index=True)
 
-# Ensure data types are correct
 df["STATE NAME"] = df["STATE NAME"].astype(str)
 df["PARTY NAME"] = df["PARTY NAME"].astype(str)
 df["Year"] = df["Year"].astype(int)
 
-# Get unique state names and years (convert years to strings for UI compatibility)
 state_options = sorted(df["STATE NAME"].dropna().unique())
 year_options = [str(y) for y in sorted(df["Year"].unique())]
 
+# Load prediction data
+df_2029 = pd.read_csv("predicted_2029_results.csv")
+
+df_2029["STATE NAME"] = df_2029["STATE NAME"].astype(str)
+df_2029["PARTY NAME"] = df_2029["PARTY NAME"].astype(str)
+df_2029["SEATS WON"] = df_2029["SEATS WON"].astype(int)
+
+prediction_state_options = sorted(df_2029["STATE NAME"].dropna().unique())
+
 # Define UI
 app_ui = ui.page_fluid(
-    ui.h2("Multi-Year Election Analysis", class_="text-center"),
-
-    ui.layout_sidebar(
-        ui.sidebar(
-            ui.input_select("year", "Select Year", year_options, selected="2024"),
-            ui.input_select("state", "Select State", state_options, selected=state_options[0])
+    ui.navset_tab(
+    ui.nav_panel("Historical Data",
+        ui.layout_sidebar(
+                     ui.sidebar(
+                         ui.input_select("year", "Select Year", year_options, selected="2024"),
+                         ui.input_select("state", "Select State", state_options, selected=state_options[0])
+                     ),
+                     ui.div(
+                         ui.card(
+                             ui.h4("Seats Won by Top 3 Parties"),
+                             ui.output_ui("seats_won_chart")
+                         ),
+                         ui.card(
+                             ui.h4("Party Performance Over Years"),
+                             shinywidgets.output_widget("party_trend_chart")
+                         ),
+                         ui.card(
+                             ui.h4("Seats Won Summary Table"),
+                             ui.output_table("seats_won_table")
+                         )
+                     )
+                 )
         ),
-
-        ui.div(
-            ui.card(
-                ui.h4("Seats Won by Top 3 Parties"),
-                ui.output_ui("seats_won_chart")  # FIX: Use output_ui to handle both Plotly & HTML
-            ),
-            ui.card(
-                ui.h4("Party Performance Over Years"),
-                shinywidgets.output_widget("party_trend_chart")
-            ),
-            ui.card(
-                ui.h4("Seats Won Summary Table"),
-                ui.output_table("seats_won_table")
-            )
+        ui.nav_panel("Predictions",
+        ui.layout_sidebar(
+                 ui.sidebar(
+                     ui.input_select("pred_state", "Select State:", prediction_state_options,
+                                     selected=prediction_state_options[0])
+                 ),
+                 ui.div(
+                     ui.card(
+                         ui.h4("Predicted Seats Won"),
+                         shinywidgets.output_widget("prediction_chart")
+                     ),
+                     ui.card(
+                         ui.h4("Seats Won Summary Table"),
+                         ui.output_table("prediction_table")
+                     )
+                 )
+             )
         )
     )
 )
@@ -55,50 +79,54 @@ app_ui = ui.page_fluid(
 
 # Define Server Logic
 def server(input, output, session):
+    # Historical Data Logic
     @reactive.calc
     def filtered_data():
-        """Filter data based on selected year & state"""
         return df[(df["Year"] == int(input.year())) & (df["STATE NAME"] == input.state())]
 
     @output
-    @render.ui  # FIX: Use render.ui to handle both Plotly and "No data" message
+    @render.ui
     def seats_won_chart():
-        """Bar chart of seats won by the top 3 parties"""
         data = filtered_data()
         if data.empty:
             return ui.HTML("<p style='color: red; font-weight: bold;'>No data available for this selection.</p>")
-
-        fig = px.bar(
-            data,
-            x="PARTY NAME",
-            y="SEATS WON",
-            color="PARTY NAME",
-            title=f"Seats Won by Top 3 Parties in {input.state()} ({input.year()})",
-            labels={"SEATS WON": "Number of Seats"}
-        )
-        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs='cdn'))  # Convert Plotly to HTML
+        fig = px.bar(data, x="PARTY NAME", y="SEATS WON", color="PARTY NAME",
+                     title=f"Seats Won by Top 3 Parties in {input.state()} ({input.year()})",
+                     labels={"SEATS WON": "Number of Seats"})
+        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs='cdn'))
 
     @output
     @shinywidgets.render_widget
     def party_trend_chart():
-        """Line chart showing party performance over years"""
         party_data = df[df["STATE NAME"] == input.state()]
-        fig = px.line(
-            party_data,
-            x="Year",
-            y="SEATS WON",
-            color="PARTY NAME",
-            markers=True,
-            title=f"Party Performance Over Years in {input.state()}",
-            labels={"SEATS WON": "Seats Won"}
-        )
+        fig = px.line(party_data, x="Year", y="SEATS WON", color="PARTY NAME", markers=True,
+                      title=f"Party Performance Over Years in {input.state()}",
+                      labels={"SEATS WON": "Seats Won"})
         return fig
 
     @output
     @render.table
     def seats_won_table():
-        """Table summary of seats won"""
         return filtered_data()[["PARTY NAME", "SEATS WON", "% SEATS WON"]]
+
+    # Prediction Logic
+    @reactive.calc
+    def filtered_prediction():
+        return df_2029[df_2029["STATE NAME"] == input.pred_state()]
+
+    @output
+    @shinywidgets.render_widget
+    def prediction_chart():
+        data = filtered_prediction()
+        fig = px.bar(data, x="PARTY NAME", y="SEATS WON", color="PARTY NAME",
+                     title=f"Predicted Seats Won in {input.pred_state()} (2029)",
+                     labels={"SEATS WON": "Seats Won"})
+        return fig
+
+    @output
+    @render.table
+    def prediction_table():
+        return filtered_prediction()[["PARTY NAME", "SEATS WON"]]
 
 
 # Run the app
