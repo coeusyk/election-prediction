@@ -9,3 +9,7 @@ To do:
     predict next election result
     explore party wise votes
     get state wise trend
+
+me:
+    get top 3 party from each state
+    %of seat won by each party in  
